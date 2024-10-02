@@ -23,6 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   background: linear-gradient(0deg, #0f172a, #020617);
+  overflow-x: hidden;
 }
 
 #content {
@@ -192,4 +193,46 @@ header > nav > button:last-child {
   line-height: 0.8;
   padding-left: 96px;
   margin-top: 64px;
+}
+
+.menu-item > img {
+  width: 25vw;
+  height: 45vh;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.menu-item {
+  color: var(--white);
+  width: 25vw;
+}
+
+.menu-item > h4 {
+  font-size: 32px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 32px;
+}
+
+.menu-item > p {
+  font-size: 24px;
+  width: 25vw;
+  margin-top: 16px;
+  color: #f8fafc9f;
+}
+
+#menu-container {
+  display: flex;
+  padding: 0px 96px;
+  margin-top: 96px;
+  flex-wrap: wrap;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: white;
+  margin-top: 200px;
 }
