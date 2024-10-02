@@ -58,6 +58,7 @@ export function appendHome(element) {
   element.innerHTML = "";
 
   body.style.backgroundImage = `url(${homeBackground})`;
+  body.style.backgroundSize = "cover";
   element.innerHTML = createHome();
 
   const contentContainer = document.getElementById("home-content-container");

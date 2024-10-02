@@ -7,6 +7,4 @@ const menuButton = document.getElementById("menu-button");
 const aboutButton = document.getElementById("about-button");
 const orderButton = document.getElementById("order-button");
 
-appendHome(content);
-
 homeButton.addEventListener("click", () => appendHome(content));
