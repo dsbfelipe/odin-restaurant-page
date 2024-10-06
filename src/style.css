@@ -182,7 +182,7 @@ header > nav > button:last-child {
 }
 
 #menu-h1 {
-  color: var(--white);
+  color: var(--yellow);
   font-family: "genesize-grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -194,11 +194,23 @@ header > nav > button:last-child {
   margin-top: 64px;
 }
 
+#menu-description {
+  margin-top: 32px;
+  color: var(--white);
+  padding: 0px 96px;
+  width: 60vw;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
 .menu-item > img {
   width: 28vw;
   height: 50vh;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 64px;
 }
 
 .menu-item {
@@ -266,6 +278,7 @@ footer {
   display: flex;
   border-top-left-radius: 64px;
   border-top-right-radius: 64px;
+  margin-top: 64px;
 }
 
 #left-side > h2 {
@@ -284,7 +297,7 @@ footer {
 
 #right-side {
   display: flex;
-  gap: 128px;
+  gap: 160px;
 }
 
 #contact {
