@@ -17,7 +17,7 @@ function getCurrentDay() {
 
 function getTomorrow() {
   const date = new Date();
-  return weekday[date.getDay() + 1];
+  return weekday[date.getDay()] === "Saturday" ? weekday[0] : weekday[date.getDay() + 1];
 }
 
 function createHome() {
